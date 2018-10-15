@@ -1,0 +1,546 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=480,maximum-scale=2,user-scalable=1">
+    <link rel="icon" href="fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/functions.js"></script>
+
+    <title>PREEMAN</title>
+</head>
+<body>
+
+<div id="content-size"></div>
+<div id="all-content">
+
+    <header>
+        <div class="main-menu">
+            <div class="menu-left menu-line">
+                <a href="#first-page" class="active">Главная</a>
+                <a href="#second-page">О нас</a>
+                <a href="#third-page">Каталог авто</a>
+            </div>
+            <a href="#" id="logo"></a>
+            <div class="menu-right menu-line">
+                <a href="#fourth-page">Марки авто</a>
+                <a href="#form-page">Форма связи</a>
+                <a href="#last-page">Контакты</a>
+            </div>
+        </div>
+        <div id="burger">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+        <a href="index.html" id="mobile-logo"></a>
+    </header>
+
+    <div id="pages">
+        <a href="#first-page" id="first-page"></a>
+        <div class="page first-page">
+            <div id="first-bg"></div>
+            <div id="big-logo">
+                <iframe src="http://preeman.de/logo/" frameborder="0" width="710" height="360"></iframe>
+            </div>
+            <div id="choose-you-car"><span>CHOOSE THE RIGHT CAR</span></div>
+            <div id="mouse"></div>
+        </div>
+        <div class="page index-second-page">
+            <a href="#second-page" id="second-page"></a>
+            <div class="page-title">
+                Философия компании
+                <div class="page-title-line"><div class="page-title-purple-ghost"></div><div class="page-title-purple"></div></div>
+            </div>
+            <div class="philosophy-data">
+                <div class="philosophy-player">
+                    <!--https://www.youtube.com/embed/Ggwx0ULoLow-->
+                    <iframe width="574" height="380" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="philosophy-player-img" style="background: url(img/philosophycar.png) no-repeat 50% 50%;background-size: cover;"></div>
+                </div>
+                <div class="philosophy-text">
+                    Lorem <b>ipsum</b> dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <b>dolore magna</b> aliqua. Ut enim ad minim <b>veniam</b>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                    <div class="philosophy-bookmarks">
+                        <div class="philosophy-bookmarks-icons">
+                            <div class="philosophy-bookmarks-icon active"></div>
+                            <div class="philosophy-bookmarks-icon"></div>
+                            <div class="philosophy-bookmarks-icon"></div>
+                            <div class="philosophy-bookmarks-icon"></div>
+                            <div class="philosophy-bookmarks-icon"></div>
+                            <div class="philosophy-bookmarks-icon"></div>
+                        </div>
+                        <div class="philosophy-bookmarks-line"><div class="philosophy-bookmarks-ghost"></div><div class="philosophy-bookmarks-active"></div></div>
+                        <div class="philosophy-block-texts">
+                            <div class="philosophy-block-text active">
+                                <span>Заголовок 1</span>
+                                Покупка поддержаных лукс авто известных марок и моделей. Так же мы осуществляем и покупку подобных авто.
+                            </div>
+                            <div class="philosophy-block-text">
+                                <span>Заголовок 2</span>
+                                Прямая коммуникация со специалистом, осуществляющим поиск вашей машины
+                            </div>
+                            <div class="philosophy-block-text">
+                                <span>Заголовок 3</span>
+                                Возможность купить машину под заказ.
+                            </div>
+                            <div class="philosophy-block-text">
+                                <span>Заголовок 4</span>
+                                Полная техническая проверка авто через сервис <a href="https://www.dekra.de/de-de/startseite/" target="_blank">DEKRA</a>
+                            </div>
+                            <div class="philosophy-block-text">
+                                <span>Заголовок 5</span>
+                                Частичная лакировка, полировка и устранение возможных внешних недостатков.
+                            </div>
+                            <div class="philosophy-block-text">
+                                <span>Заголовок 6</span>
+                                Доставка на дом.<br>На сколько это все просто будет представлено в ролике
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page index-third-page">
+            <a href="#third-page" id="third-page"></a>
+            <div class="inner-container">
+                <div class="inner-title">
+                    <span>
+                        Каталог авто
+                        <div class="page-title-line"><div class="page-title-purple-ghost"></div><div class="page-title-purple"></div></div>
+                    </span>
+                    <div class="catalog-type">
+                        <a href="#" class="active">Modern</a>|<a href="#" style="margin-right: 35px;">Retro</a>
+                    </div>
+                </div>
+
+                <div class="car-list modern active">
+                    <div class="car-list-line">
+                        <div class="car-row">
+                            <div class="car-item" style="background: url(img/m4.jpeg) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <video src="img/cars/1.mp4" loop playsinline muted id="car-item-video1"></video>
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">M4<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/2.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video2"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item right" style="background: url(img/cars/3.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video3"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/4.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video4"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item right" style="background: url(img/cars/5.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video5"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/6.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video6"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item right" style="background: url(img/cars/7.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video7"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/8.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video8"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item right" style="background: url(img/cars/5.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video5"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/6.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video6"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item right" style="background: url(img/cars/7.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video7"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/8.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video8"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="empty"></div>
+                </div>
+                <div class="car-list retro">
+                    <div class="car-list-line">
+                        <div class="car-row">
+                            <div class="car-item right" style="background: url(img/cars/3.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video3"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/4.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video4"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item right" style="background: url(img/cars/5.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video5"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/6.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video6"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item" style="background: url(img/m4.jpeg) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <video src="img/cars/1.mp4" loop playsinline muted id="car-item-video1"></video>
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">M4<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/2.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video2"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item right" style="background: url(img/cars/8.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video8"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/7.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video7"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item" style="background: url(img/m4.jpeg) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <video src="img/cars/1.mp4" loop playsinline muted id="car-item-video1"></video>
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">M4<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/2.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video2"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                        <div class="car-row">
+                            <div class="car-item right" style="background: url(img/cars/8.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video8"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                            <div class="car-item right" style="background: url(img/cars/7.png) no-repeat 50% 50%; background-size: cover;">
+                                <a href="car.html" class="car-item-video">
+                                    <!--<video src="img/cars/1.mp4" loop playsinline muted id="car-item-video7"></video>-->
+                                </a>
+                                <a href="#" class="order-btn">pre-oder <img src="img/cart.png" alt=""></a>
+                                <div class="car-item-price">Название модели<br><span>$ 25,000</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="empty"></div>
+                </div>
+            </div>
+            <div id="car-list-prev"></div>
+            <div id="car-list-next"></div>
+        </div>
+        <div class="page index-fourth-page">
+            <a href="#fourth-page" id="fourth-page"></a>
+            <div class="inner-container">
+                <div class="inner-title">
+                    <span>
+                        Выбор марки
+                        <div class="page-title-line"><div class="page-title-purple-ghost"></div><div class="page-title-purple"></div></div>
+                    </span>
+                </div>
+
+                <div class="car-logos">
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/1.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/1.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/2.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/2.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/3.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/3.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/4.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/4.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/5.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/5.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/6.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/6.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/7.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/7.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/8.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/8.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/9.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/9.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/10.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/10.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/11.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/11.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/12.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/12.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/13.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/13.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/14.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/14.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <a href="catalog.html" class="car-logo" style="background: url(img/logos/15.png) no-repeat 50% 50%; background-size: contain;">
+                        <span style="background: url(img/logos_hover/15.png) no-repeat 50% 50%; background-size: contain;"></span>
+                    </a>
+                    <div class="empty"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="page form-page">
+            <a href="#form-page" id="form-page" style="position: relative;display: block;top: -150px;"></a>
+            <div class="form-content">
+                <div class="form-page-block active">
+                    <div class="form-page-block-title">
+                        я хочу купить
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 284.935 284.936" style="enable-background:new 0 0 284.935 284.936;" xml:space="preserve">
+<g>
+	<path d="M110.488,142.468L222.694,30.264c1.902-1.903,2.854-4.093,2.854-6.567c0-2.474-0.951-4.664-2.854-6.563L208.417,2.857   C206.513,0.955,204.324,0,201.856,0c-2.475,0-4.664,0.955-6.567,2.857L62.24,135.9c-1.903,1.903-2.852,4.093-2.852,6.567   c0,2.475,0.949,4.664,2.852,6.567l133.042,133.043c1.906,1.906,4.097,2.857,6.571,2.857c2.471,0,4.66-0.951,6.563-2.857   l14.277-14.267c1.902-1.903,2.851-4.094,2.851-6.57c0-2.472-0.948-4.661-2.851-6.564L110.488,142.468z" fill="#ffffff"/>
+</g>
+</svg>
+                    </div>
+                    <form action="#">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Ваш телефон">
+                        <input type="text" placeholder="Ваш E-mail">
+                        <input type="text" placeholder="Марка машины" id="get-car-brand">
+                        <input type="text" placeholder="Модель" id="get-car-model">
+                        <input type="text" placeholder="Год выпуска" id="get-car-year">
+                        <textarea type="text" class="full-input" placeholder="Сообщение"></textarea>
+                        <button>Отправить</button>
+                    </form>
+                </div>
+                <div class="form-page-block">
+                    <div class="form-page-block-title">
+                        я хочу Продать
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 284.935 284.936" style="enable-background:new 0 0 284.935 284.936;" xml:space="preserve">
+<g>
+	<path d="M110.488,142.468L222.694,30.264c1.902-1.903,2.854-4.093,2.854-6.567c0-2.474-0.951-4.664-2.854-6.563L208.417,2.857   C206.513,0.955,204.324,0,201.856,0c-2.475,0-4.664,0.955-6.567,2.857L62.24,135.9c-1.903,1.903-2.852,4.093-2.852,6.567   c0,2.475,0.949,4.664,2.852,6.567l133.042,133.043c1.906,1.906,4.097,2.857,6.571,2.857c2.471,0,4.66-0.951,6.563-2.857   l14.277-14.267c1.902-1.903,2.851-4.094,2.851-6.57c0-2.472-0.948-4.661-2.851-6.564L110.488,142.468z" fill="#ffffff"/>
+</g>
+</svg>
+                    </div>
+                    <form action="#">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Ваш телефон">
+                        <input type="text" placeholder="Ваш E-mail">
+                        <input type="text" placeholder="Марка машины">
+                        <input type="text" placeholder="Модель">
+                        <input type="text" placeholder="Год выпуска">
+                        <textarea type="text" class="full-input" placeholder="Сообщение"></textarea>
+                        <div id="drop-area">
+                            <div id="gallery"></div>
+                            <div class="form-upload-placehoder">
+                                <span>+</span><br>
+                                Перетащите фото для загрузки
+                            </div>
+                            <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+                            <label class="button" for="fileElem">Select some files</label>
+                            <progress id="progress-bar" max=100 value=0 style="display: none"></progress>
+
+                            <!--<div id="gallery" /></div>-->
+                        </div>
+                        <button>Отправить</button>
+                    </form>
+                </div>
+                <div class="form-page-block">
+                    <div class="form-page-block-title">
+                        Я хочу подать запрос на поиск конкретной модели
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 284.935 284.936" style="enable-background:new 0 0 284.935 284.936;" xml:space="preserve">
+<g>
+	<path d="M110.488,142.468L222.694,30.264c1.902-1.903,2.854-4.093,2.854-6.567c0-2.474-0.951-4.664-2.854-6.563L208.417,2.857   C206.513,0.955,204.324,0,201.856,0c-2.475,0-4.664,0.955-6.567,2.857L62.24,135.9c-1.903,1.903-2.852,4.093-2.852,6.567   c0,2.475,0.949,4.664,2.852,6.567l133.042,133.043c1.906,1.906,4.097,2.857,6.571,2.857c2.471,0,4.66-0.951,6.563-2.857   l14.277-14.267c1.902-1.903,2.851-4.094,2.851-6.57c0-2.472-0.948-4.661-2.851-6.564L110.488,142.468z" fill="#ffffff"/>
+</g>
+</svg>
+                    </div>
+                    <form action="#">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Ваш телефон">
+                        <input type="text" placeholder="Ваш E-mail">
+                        <input type="text" placeholder="Марка машины">
+                        <input type="text" placeholder="Модель">
+                        <input type="text" placeholder="Год выпуска">
+                        <textarea type="text" class="full-input" placeholder="Сообщение"></textarea>
+                        <button>Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <a href="#last-page" id="last-page"></a>
+        <div id="footer-data">
+            <form id="subscribe-form">
+                <span>Подписаться<br>на наши новости</span>
+                <input type="text" placeholder="Ваш E-mail">
+                <button id="subscribe-btn">Подписаться</button>
+                <div class="rules">
+                    Ich stimme der Verarbeitung meiner personenbezogenen Daten<br>für die im <a href="#">Datenschutz</a> angegebenen Profiling-Zwecke zu.
+                </div>
+            </form>
+            <div id="footer-data-menu">
+                <a href="#">Главная</a>
+                <a href="#">О нас</a>
+                <a href="#">Каталог авто</a>
+                <a href="#">Марки авто</a>
+                <a href="#">Форма связи</a>
+                <a href="#">Контакты</a>
+            </div>
+            <a href="#" class="car-formular">
+                <span>Формуляр на скачивание. При наведении на иконку слево и на текст - курсор превращает-ся в руку, а текст становиться подчёркнутым. При наведении на документ слево,</span>
+            </a>
+        </div>
+        <div id="footer-bottom">
+            <div id="footer-left">
+                <div class="copyright">Copyright 2018<br>Сайт разработан <a href="#">AS.PR Creative Group</a></div>
+                <!--<div class="creator"></div>-->
+
+
+                <div id="footer-rules">
+                    <a href="#">Datenschutz</a><br>
+                    <a href="#">Impressum</a>
+                </div>
+                <div id="footer-socials">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+            <a href="index.html" id="footer-logo"></a>
+            <a href="#" id="footer-formular">
+                Формуляр со всякими юридическими делами,<br>
+                как документ- файл, и сделать ссылку<br>
+                на скачивание.
+            </a>
+        </div>
+    </div></div>
+
+<div id="navigation">
+    <div class="navigation always-visible">
+        <div class="nav-items">
+            <div class="nav-item active" data-href="#first-page"><span>Главная</span></div>
+            <div class="nav-item" data-href="#second-page"><span>О нас</span></div>
+            <div class="nav-item" data-href="#third-page"><span>Каталог авто</span></div>
+            <div class="nav-item" data-href="#fourth-page"><span>Марки авто</span></div>
+            <div class="nav-item" data-href="#form-page"><span>Форма связи</span></div>
+            <!--<div class="nav-item" data-href="#last-page"><span>Контакты</span></div>-->
+        </div>
+        <div class="to-bottom">
+            <span class="active" data-href="#second-page">О нас</span>
+            <span data-href="#third-page">Каталог авто</span>
+            <span data-href="#fourth-page">Марки авто</span>
+            <span data-href="#form-page">Форма связи</span>
+            <!--<span data-href="#last-page">Контакты</span>-->
+        </div>
+    </div>
+</div>
+<script src="js/uploader.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
